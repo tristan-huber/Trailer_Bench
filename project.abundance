@@ -194,8 +194,8 @@
     },
     {
       "atomType": "CutLayout",
-      "x": 0.6494140625,
-      "y": 0.84375,
+      "x": 0.6552734375,
+      "y": 0.88125,
       "uniqueID": "id-11226",
       "name": "Cut Layout",
       "ioValues": [
@@ -5168,11 +5168,6 @@
     {
       "ap2Name": "geometry",
       "ap1ID": "id-10567",
-      "ap2ID": "id-11226"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-11226",
       "ap2ID": "id-1596"
     },
     {
