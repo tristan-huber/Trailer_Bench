@@ -4,11 +4,6 @@
 
 ![](/project.svg)
 
-## Inputs
-
-- **Wood Thickness** (number)
-
-
 
 
  
