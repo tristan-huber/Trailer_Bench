@@ -4,6 +4,12 @@
   "y": 0,
   "uniqueID": "9ddafb34-7c53-4b86-9225-9b0ec0a14fcf",
   "name": "Trailer_Bench",
+  "ioValues": [
+    {
+      "name": "Wood Thickness",
+      "ioValue": 18
+    }
+  ],
   "topLevel": true,
   "allAtoms": [
     {
@@ -21,7 +27,7 @@
     {
       "atomType": "Input",
       "x": 0.0231,
-      "y": 0.5395833333333333,
+      "y": 0.14,
       "uniqueID": "7d02a016-b23a-48f8-bb8c-5bae50d25822",
       "name": "Wood Thickness",
       "type": "number"
@@ -184,7 +190,7 @@
           "downwardFaceIndex": 4
         }
       ],
-      "orientationsForHashed": "e6848b1c"
+      "orientationsForHashed": "d78c886f"
     },
     {
       "atomType": "CutLayout",
@@ -378,6 +384,41 @@
           }
         ]
       ]
+    },
+    {
+      "atomType": "Gcode",
+      "x": 0.7412109375,
+      "y": 0.7375,
+      "uniqueID": "id-1596",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Tool Size",
+          "ioValue": 6
+        },
+        {
+          "name": "Passes",
+          "ioValue": 3
+        },
+        {
+          "name": "Speed",
+          "ioValue": 2000
+        },
+        {
+          "name": "Cut Through",
+          "ioValue": 2
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Trailer_Bench",
+          "currentEquation": "Trailer_Bench"
+        }
+      ],
+      "partName": "Trailer_Bench",
+      "sortDirection": "Top"
     },
     {
       "atomType": "Molecule",
@@ -5086,41 +5127,6 @@
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Gcode",
-      "x": 0.7412109375,
-      "y": 0.7375,
-      "uniqueID": "id-1596",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "Tool Size",
-          "ioValue": 6
-        },
-        {
-          "name": "Passes",
-          "ioValue": 3
-        },
-        {
-          "name": "Speed",
-          "ioValue": 2000
-        },
-        {
-          "name": "Cut Through",
-          "ioValue": 2
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "Trailer_Bench",
-          "currentEquation": "Trailer_Bench"
-        }
-      ],
-      "partName": "Trailer_Bench",
-      "sortDirection": "Top"
     }
   ],
   "allConnectors": [
@@ -5183,12 +5189,6 @@
       "ap2Name": "Shape 1",
       "ap1ID": "80a1f3c8-ccb7-4388-b3d5-4aae5eb7f8de",
       "ap2ID": "id-1579"
-    }
-  ],
-  "ioValues": [
-    {
-      "name": "Wood Thickness",
-      "ioValue": 18
     }
   ],
   "unitsKey": "MM",
