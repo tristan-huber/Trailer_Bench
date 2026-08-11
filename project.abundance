@@ -190,7 +190,7 @@
           "downwardFaceIndex": 4
         }
       ],
-      "orientationsForHashed": "e4ee48ec"
+      "orientationsForHashed": "d78c886f"
     },
     {
       "atomType": "CutLayout",
@@ -5164,11 +5164,6 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-1579",
       "ap2ID": "883341d1-0994-4c1d-954b-88e4e0ec4f85"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-10567",
-      "ap2ID": "id-1596"
     },
     {
       "ap2Name": "input",
